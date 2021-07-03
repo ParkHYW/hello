@@ -1,0 +1,76 @@
+/* 정렬*/
+.mainbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mainbox_detail{
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.mainbox_detail__explain{
+    
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.mainbox_detail__buy{
+    display: inherit;
+    flex-direction: row;
+}
+
+/* 테두리 */
+.mainbox_detail__explain_f,
+.mainbox_detail__explain_s{
+    
+    font-weight: 500;
+    font-style: normal;
+}
+
+.basket,.buying{
+    text-align: center;
+    width: 340px;
+    height: 60px;
+    border: 1px solid black;
+    font-weight: 400;
+    font-style: normal;
+}
+.water,.sun,.cel,.wind{
+    border: 1px solid black;
+    width: 388px;
+    height: 194px;
+    /*위치*/
+}
+.sec_move{
+    position: relative;
+    top: 20px;
+}
+
+.move{
+    position: relative;
+    left: 63px;
+    top: 70px;
+}
+
+/*색깔*/
+
+.fa-tint{
+    color: blue;
+}
+.fa-thermometer-half{
+    color: cadetblue;
+}
+.fa-sun{
+    color: crimson;
+}
+.fa-wind{
+    color: darkblue;
+}
